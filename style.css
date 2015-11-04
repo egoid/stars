@@ -79,16 +79,23 @@ body{
 
 }
 
-#star {
+.star {
 	background: url(stars.png);
 	background-size:cover;
 	width:200px;
 	height:200px;
 	z-index:9999;
 	float:right;
-	right: 200px;
 	position:fixed;
+	bottom:80%;
+	right:200px;
+}
 
+
+
+#hihat{
+	right:200px;
+	bottom:40%;
 }
 
 #mid{
